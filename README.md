@@ -1,5 +1,5 @@
 # IFZ-Moder
-This is ment to add the abbility to mod buildings, vehicles, and at some point weapons
+This is meant to add the ability to mod buildings, vehicles, and at some point weapons
 I am not very good at coding, use at your own risk, will need to be updated with every version
 
 1. Replace IFZ.dll in Infection Free Zone_Data\Managed
