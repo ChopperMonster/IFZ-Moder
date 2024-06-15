@@ -6,6 +6,7 @@ if it doesn't, click again (or redo this step if you right click) then right cli
 files for buildings)
 5. Copy a file from a dump folder into a non-dump folder (PlacableObjects) and open it
 6. edit it however you like, just don't mess up the syntax!
+7. Repeat step 3 (You don't need to restart your game)
 P.S. vehicleType is empty, fill it with the name of the file ("vehicleType" : "ve_truck")
 I've added my own mods to the tool factory, feel free to remove them
 
