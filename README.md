@@ -4,7 +4,7 @@ I am not very good at coding, use at your own risk, will need to be updated with
 
 1. Replace IFZ.dll in Infection Free Zone_Data\Managed
 2. place the Json folder in Infection Free Zone_Data\StreamingAssets
-3. Run game, hit ~ then enable cheats, then spawn vehicle, then slect any vehicle, the code should run, 
+3. Run game, load up a save or start new game, hit ~ then enable cheats, then spawn vehicle, then slect any vehicle, the code should run, 
 if it doesn't, click again (or redo this step if you right click) then right click and press ~
 4. look into the Json folder, then any folder ending with dump (For example, PlacableObjectsDump has the
 files for buildings)
