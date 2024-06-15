@@ -2,6 +2,8 @@
 This is meant to add the ability to mod buildings, vehicles, and at some point weapons
 I am not very good at coding, use at your own risk, will need to be updated with every version
 
+GAME VERSION: 0.24.6.5 BETA+
+
 1. Replace IFZ.dll in Infection Free Zone_Data\Managed
 2. place the Json folder in Infection Free Zone_Data\StreamingAssets
 3. Run game, load up a save or start new game, hit ~ then enable cheats, then spawn vehicle, then slect any vehicle, the code should run, 
