@@ -1,0 +1,330 @@
+{
+    "id": "bld_tool_factory",
+    "placeableObjectType": 1,
+    "prefabBuilding": {
+        "instanceID": 0
+    },
+    "addEmblem": false,
+    "soldierHitProbability": 0.20000000298023225,
+    "buildingTimeGTS": 150.0,
+    "maxBuildingWorkers": 0.4000000059604645,
+    "deadaptationTimeGTS": 100.0,
+    "maxDeadaptationWorkers": 0.10000000149011612,
+    "repairTimeGTS": 50.0,
+    "maxRepairWorkers": 0.12999999523162843,
+    "deconstructTimeGTS": 3600.0,
+    "maxDeconstructionWorkers": 5,
+    "poiSprite": {
+        "instanceID": 50666
+    },
+    "conceptSprite": {
+        "instanceID": 51052
+    },
+    "showStructuralIntegrity": true,
+    "hpForStructure": 3000.0,
+    "_hpForAdaptedPer100M3": 100.0,
+    "showNextPreviousButtons": true,
+    "nextBtnTooltipId": "ToolFactory_Panel_NextBtn",
+    "prevBtnTooltipId": "ToolFactory_Panel_PrevBtn",
+    "height": 1.0,
+    "surface": 100.0,
+    "hideSurfaceLabel": false,
+    "hideHeightLabel": false,
+    "hasSearchModule": false,
+    "hasWorkersModule": true,
+    "maxWorkers": 0.4699999988079071,
+    "_employment": 7,
+    "hasStorageModule": true,
+    "resourcesCapacity": 1.0,
+    "isStockroom": false,
+    "hasLivingQuartersModule": false,
+    "livingCapacity": 0.0,
+    "housePriority": 0,
+    "hasProductionModule": true,
+    "productionsData": {
+        "damageRedirectedToProductionProgress": false,
+        "minTemperatureWithMaxEfficiency": 0.0,
+        "_temperatureEfficiencyCurve": {
+            "serializedVersion": "2",
+            "m_Curve": [
+                {
+                    "serializedVersion": "3",
+                    "time": 0.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "weightedMode": 0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0
+                },
+                {
+                    "serializedVersion": "3",
+                    "time": 1.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "weightedMode": 0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0
+                }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+        },
+        "productions": [
+            {
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 6,
+                        "amount": 2,
+                        "resourceModificators": []
+                    },
+                    {
+                        "type": 5,
+                        "amount": 1,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 14,
+                        "amount": 1,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 4,
+                        "amount": 200,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 5,
+                        "amount": 200,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 6,
+                        "amount": 200,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 1,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 14,
+                        "amount": 30,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 23,
+                        "amount": 50,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 24,
+                        "amount": 25,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 25,
+                        "amount": 25,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 26,
+                        "amount": 25,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [
+                    {
+                        "type": 3,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 27,
+                        "amount": 25,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_wood_and_metal_to_tools",
+                "cost": [],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 6,
+                        "amount": 1,
+                        "resourceModificators": []
+                    }
+                ]
+            }
+        ]
+    },
+    "hasSquadCreationModule": false,
+    "maximumSquadsAmountPer100M": 0.0,
+    "hasDefenceModule": false,
+    "defenceData": {
+        "maxAmmo": 0,
+        "defaultWeapon": {
+            "instanceID": 0
+        },
+        "startSelectWeapon": {
+            "instanceID": 0
+        },
+        "weaponsUsable": [],
+        "additionalRatioCooldown": 0.0
+    },
+    "hasResearchModule": false,
+    "hasWorkersTreatmentModule": false,
+    "_healingPerDoctorPerHour": 0.0,
+    "hasSoldiersTreatmentModule": false,
+    "_bedsPerPhysician": 0,
+    "_bedHealingSpeed": 0.0,
+    "hasWeatherModule": false,
+    "_meteorologistEfficiencyPerGTS": 1.0,
+    "isInteractable": true,
+    "_isHq": false,
+    "showTextInProduction": false
+}
