@@ -117,6 +117,25 @@
                 ]
             },
 			{
+                "id": "prod_ammo",
+                "cost": [
+                    {
+                        "type": 4,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 3,
+                        "amount": 10,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
                 "id": "prod_wood_and_metal_to_tools",
                 "cost": [
                     {
@@ -131,6 +150,25 @@
                     {
                         "type": 5,
                         "amount": 200,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_ammo",
+                "cost": [
+                    {
+                        "type": 5,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 3,
+                        "amount": 10,
                         "resourceModificators": []
                     }
                 ]
@@ -155,7 +193,26 @@
                 ]
             },
 			{
-                "id": "prod_wood_and_metal_to_tools",
+                "id": "prod_ammo",
+                "cost": [
+                    {
+                        "type": 6,
+                        "amount": 100,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 1500.0,
+                "TimeModificators": [],
+                "profit": [
+                    {
+                        "type": 3,
+                        "amount": 10,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_ammo",
                 "cost": [
                     {
                         "type": 1,

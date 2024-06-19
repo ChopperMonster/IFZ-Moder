@@ -1,0 +1,190 @@
+{
+    "id": "bld_kitchen",
+    "placeableObjectType": 1,
+    "prefabBuilding": {
+        "instanceID": 0
+    },
+    "addEmblem": false,
+    "soldierHitProbability": 0.20000000298023225,
+    "buildingTimeGTS": 150.0,
+    "maxBuildingWorkers": 0.4000000059604645,
+    "deadaptationTimeGTS": 200.0,
+    "maxDeadaptationWorkers": 0.30000001192092898,
+    "repairTimeGTS": 50.0,
+    "maxRepairWorkers": 0.12999999523162843,
+    "deconstructTimeGTS": 3600.0,
+    "maxDeconstructionWorkers": 5,
+    "poiSprite": {
+        "instanceID": 50488
+    },
+    "conceptSprite": {
+        "instanceID": 49960
+    },
+    "showStructuralIntegrity": true,
+    "hpForStructure": 3000.0,
+    "_hpForAdaptedPer100M3": 100.0,
+    "showNextPreviousButtons": true,
+    "nextBtnTooltipId": "Kitchen_Panel_NextBtn",
+    "prevBtnTooltipId": "Kitchen_Panel_PrevBtn",
+    "height": 1.0,
+    "surface": 100.0,
+    "hideSurfaceLabel": false,
+    "hideHeightLabel": false,
+    "hasSearchModule": false,
+    "hasWorkersModule": true,
+    "maxWorkers": 0.4000000059604645,
+    "_employment": 5,
+    "hasStorageModule": true,
+    "resourcesCapacity": 1.0,
+    "isStockroom": false,
+    "hasLivingQuartersModule": false,
+    "livingCapacity": 0.0,
+    "housePriority": 0,
+    "hasProductionModule": true,
+    "productionsData": {
+        "damageRedirectedToProductionProgress": false,
+        "minTemperatureWithMaxEfficiency": 0.0,
+        "_temperatureEfficiencyCurve": {
+            "serializedVersion": "2",
+            "m_Curve": [
+                {
+                    "serializedVersion": "3",
+                    "time": 0.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "weightedMode": 0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0
+                },
+                {
+                    "serializedVersion": "3",
+                    "time": 1.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "weightedMode": 0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0
+                }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+        },
+        "productions": [
+            {
+                "id": "prod_kitchen_grain_and_wood_to_food",
+                "cost": [
+                    {
+                        "type": 33,
+                        "amount": 2,
+                        "resourceModificators": []
+                    },
+                    {
+                        "type": 6,
+                        "amount": 1,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 500.0,
+                "TimeModificators": [
+                    {
+                        "id": "prod_mod_tech_eff_feeding",
+                        "value": 0.800000011920929
+                    }
+                ],
+                "profit": [
+                    {
+                        "type": 34,
+                        "amount": 4,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+            {
+                "id": "prod_kitchen_meat_and_wood_to_food",
+                "cost": [
+                    {
+                        "type": 12,
+                        "amount": 3,
+                        "resourceModificators": []
+                    },
+                    {
+                        "type": 6,
+                        "amount": 1,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 400.0,
+                "TimeModificators": [
+                    {
+                        "id": "prod_mod_tech_eff_feeding",
+                        "value": 0.800000011920929
+                    }
+                ],
+                "profit": [
+                    {
+                        "type": 34,
+                        "amount": 5,
+                        "resourceModificators": []
+                    }
+                ]
+            },
+			{
+                "id": "prod_kitchen_meat_and_wood_to_food",
+                "cost": [
+                    {
+                        "type": 12,
+                        "amount": 30,
+                        "resourceModificators": []
+                    },
+                    {
+                        "type": 6,
+                        "amount": 10,
+                        "resourceModificators": []
+                    }
+                ],
+                "totalProductionTime": 4000.0,
+                "TimeModificators": [
+                    {
+                        "id": "prod_mod_tech_eff_feeding",
+                        "value": 0.800000011920929
+                    }
+                ],
+                "profit": [
+                    {
+                        "type": 34,
+                        "amount": 50,
+                        "resourceModificators": []
+                    }
+                ]
+            }
+        ]
+    },
+    "hasSquadCreationModule": false,
+    "maximumSquadsAmountPer100M": 0.0,
+    "hasDefenceModule": false,
+    "defenceData": {
+        "maxAmmo": 0,
+        "defaultWeapon": {
+            "instanceID": 0
+        },
+        "startSelectWeapon": {
+            "instanceID": 0
+        },
+        "weaponsUsable": [],
+        "additionalRatioCooldown": 0.0
+    },
+    "hasResearchModule": false,
+    "hasWorkersTreatmentModule": false,
+    "_healingPerDoctorPerHour": 0.0,
+    "hasSoldiersTreatmentModule": false,
+    "_bedsPerPhysician": 0,
+    "_bedHealingSpeed": 0.0,
+    "hasWeatherModule": false,
+    "_meteorologistEfficiencyPerGTS": 1.0,
+    "isInteractable": true,
+    "_isHq": false,
+    "showTextInProduction": false
+}
