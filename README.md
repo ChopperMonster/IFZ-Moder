@@ -1,8 +1,7 @@
 # IFZ-Moder
-This is meant to add the ability to mod buildings, vehicles, and at some point weapons
-I am not very good at coding, use at your own risk, will need to be updated with every version
-
-GAME VERSION: 0.24.6.5 BETA+
+This is meant to add the ability to mod buildings, vehicles, weapons, gear, and research
+use at your own risk, will need to be updated with every version
+GAME VERSION: 0.24.6.18 BETA+
 
 1. Replace IFZ.dll in Infection Free Zone_Data\Managed
 2. place the Json folder in Infection Free Zone_Data\StreamingAssets
