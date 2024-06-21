@@ -3,14 +3,17 @@ This is meant to add the ability to mod buildings, vehicles, weapons, gear, and 
 use at your own risk, will need to be updated with every version
 GAME VERSION: 0.24.6.18 BETA+
 
-1. Replace IFZ.dll in Infection Free Zone_Data\Managed
-2. place the Json folder in Infection Free Zone_Data\StreamingAssets
-3. Run game, load up a save or start new game
-4. look into the Json folder, then any folder ending with "Dump" (For example, PlacableObjectsDump has the
+
+0. Press the big green code button, then download zip
+1. Replace IFZ.dll in Infection Free Zone_Data\Managed, you can easily find your game files by pressing the gear icon in steam when looking at the game(right side, level with the play button),
+then manage, browse local files
+3. place the Json folder in Infection Free Zone_Data\StreamingAssets
+4. Run game, load up a save or start new game
+5. look into the Json folder, then any folder ending with "Dump" (For example, PlacableObjectsDump has the
 files for buildings)
-5. Copy a file from a "Dump" folder into a non-Dump folder (For example, PlacableObjects) and open it
-6. edit it however you like, just don't mess up the syntax!
-7. Quit to menu and load your game
+6. Copy a file from a "Dump" folder into a non-Dump folder (For example, PlacableObjects) and open it
+7. edit it however you like, just don't mess up the syntax!
+8. Quit to menu and load your game
 
 P.S. If you want to mod vehicles, vehicleType is empty, fill it with the name of the file (Example  "vehicleType" : "ve_truck")
 
